@@ -1,0 +1,7 @@
+
+sources:
+  - name: source
+    database: data5035
+    schema: public
+    tables:
+      - name: health

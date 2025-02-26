@@ -1,0 +1,8 @@
+{
+    "statement": "select * from data5035.public.donations limit 10",
+    "timeout": 60,
+    "database": "DATA5035",
+    "schema": "PUBLIC",
+    "warehouse": "DATA5035_WH",
+    "role": "DATA5035_ROLE"
+  }
