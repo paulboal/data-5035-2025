@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: health_beds
+    description: Python transformation to get a total bed count.
+    config:
+      materialized: table
+      tags: ['python']

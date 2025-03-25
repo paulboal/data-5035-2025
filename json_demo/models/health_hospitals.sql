@@ -5,5 +5,5 @@ SELECT
   value:Beds as beds,
   value:City as city
 FROM
-  {{ source('source', 'health') }},
-  LATERAL FLATTEN(INPUT => hospitals:Hospitals)
+  {{ ref('health_raw') }},
+  LATERAL FLATTEN(INPUT => system:Hospitals)
